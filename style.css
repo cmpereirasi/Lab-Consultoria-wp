@@ -1,0 +1,446 @@
+/*
+Theme Name: lab-consultoria
+Theme URI: http://granberyconsultoria.com.br/
+Description: A simple responsive theme based on the Bootstrap framework. Includes multiple page templates, two different sidebars and a theme options panel.
+Version: 1.0.0
+Author: granbery consultoria
+Author URI: http://granberyconsultoria.com.br/
+Tags: black, white, one-column, two-columns, flexible-width, custom-background, custom-colors, custom-menu, full-width-template, theme-options
+License: GNU General Public License v2.0 & Apache License 2.0
+License URI: http://granberyconsultoria.com.br/
+*/
+
+/* HEADS UP: Everything that you will normally find here can be found in the library/less/wp.less */
+
+
+html {
+    height: 100%;
+}
+
+.fundo {
+    background-color: #fdfdfd!important;
+}
+
+.navbar-default {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(62, 61, 61, 0.78)!important;
+    border: none;
+    margin-top: 0;
+}
+
+.navbar-default ul {
+    margin: 15px 15px 15px 15px;
+}
+
+.navbar-toggle {
+    border: none
+}
+
+img {
+    margin-top: -16px;
+}
+
+.navbar-nav>li>a {
+    color: rgba(245, 242, 242, 0.72)!important;
+    font-size: 20px;
+    margin: 0 10px 0 0;
+}
+
+.navbar-nav>li>a:hover {
+    color: #f8f4f4!important;
+}
+
+.navbar-nav>li>a:active {
+    color: #292727!important;
+}
+
+h1 {
+    color: white!important;
+    font-size: 90px!important;
+    font-family: Century gothic;
+}
+
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: visible;
+    -webkit-overflow-scrolling: touch;
+    border-top: 0px solid transparent!important;
+    border-bottom: 0px solid transparent!important;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1)
+}
+
+.thumbnail {
+    width: 250px;
+    display: inline-grid;
+    padding: 1px;
+    margin-bottom: 20px;
+    transition: border .2s ease-in-out;
+    border: none;
+}
+
+.texto-descricao {
+    font-family: Century Gothic;
+    font-weight: 400;
+    color: black;
+    font-size: 50px;
+    margin: 80px 0 60px 0;
+}
+
+.texto-descricao-contato {
+    font-family: Century Gothic;
+    font-weight: 400;
+    color: white;
+    font-size: 50px;
+    margin: 30px 0 30px 0;
+}
+
+.texto-servicos {
+    text-align: center;
+    font-family: Century gothic;
+    font-size: 20px;
+    width: 300px;
+    margin-bottom: 60px;
+    padding-top: 20px;
+}
+
+.row {
+    margin-right: 0px!important;
+    margin-left: -15px
+}
+
+.img-servicos {
+    width: 70px;
+    height: 70px;
+}
+
+
+/* imagens dos clientes */
+
+.img1 {
+    height: 167px!important;
+    width: 170px!important;
+}
+
+.img2 {
+    text-align: center;
+    height: 120px!important;
+    width: 245px!important;
+}
+
+.img3 {
+    height: 175px!important;
+    width: 230px!important;
+}
+
+.img4 {
+    height: 181px!important;
+    width: 280px!important;
+}
+
+.img5 {
+    margin-top: 40px;
+    height: 90px!important;
+    width: 276px!important;
+}
+
+.img6 {
+    height: 150px!important;
+    width: 101px!important;
+}
+
+.img7 {
+    margin-top: 40px;
+    height: 107px!important;
+    width: 229px!important;
+}
+
+.img8 {
+    margin-top: 40px;
+    height: 70px!important;
+    width: 318px!important;
+}
+
+.img-cliente {
+    width=200px!important;
+    height=167px!important
+}
+
+.background-contato {
+    background: #252323;
+}
+
+.formulario {
+    color: white;
+    font-family: sans-serif;
+    outline: none!important;
+    border: none!important;
+    padding: 8px;
+    width: 100%;
+    display: inline;
+    background: #252323!important;
+    border-bottom: 2px solid white!important;
+}
+
+.btn-sub {
+    width: 100px;
+    border-radius: 0px!important;
+    color: white;
+    background-color: #252323;
+    border-color: white;
+    margin-bottom: 100px;
+    margin: 5px;
+}
+
+.btn-sub:hover {
+    color: #837c7c;
+    text-decoration: none;
+    border-color: #837c7c;
+}
+
+.form-group {
+    width: 98%!important;
+    margin: 5px;
+}
+
+textarea {
+    overflow: none;
+    color: white;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    background: #252323;
+    width: 98%;
+    height: 80px;
+    border-bottom: 2px solid white;
+    resize: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+.contato-labconsultoria {
+    background-color: #3d66a7;
+    padding: 30px;
+}
+
+section img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+font {
+    font-family: sans-serif;
+    color: white;
+}
+
+a {
+    text-decoration: none!important;
+    cursor: poiner;
+}
+
+footer {
+    margin-top: 0px;
+    background: #38393b;
+    padding-top: -20px;
+    padding-bottom: 20px;
+}
+
+footer font {
+    margin: 5px;
+}
+
+.form-contato {
+    float: left;
+    width: 50%;
+    padding: 0 0px 0 30px;
+}
+
+.dados-contato {
+    float: right;
+    width: 50%;
+    padding: 0 51px 0 51px;
+}
+
+.slide {
+    width: 100%;
+    height: 60%;
+}
+
+.img-slide {
+    height: 800px;
+    width: 900px;
+}
+
+@media (max-width: 767px) {
+    .dados-contato {
+        align-items: center;
+        float: none;
+        width: 300px;
+        margin: 30px 30px 30px 30px;
+    }
+    .form-contato {
+        float: none;
+        width: 80%!important;
+        margin-left: 10%!important;
+        margin-right: 10%!important;
+    }
+    .navbar-right {
+        width: 100%;
+    }
+    .navbar-default {
+        background-color: rgba(109, 109, 106, 0.31);
+        border: none;
+        margin-top: -50px;
+    }
+    /*.container-fluid {
+        height: 130px;
+    }*/
+    #logomarca {
+        margin-top: -35px!important;
+        height: 70px;
+        width: 80px;
+    }
+    .navbar-collapse {
+        width: 100%!important;
+        border-top: solid black 2px;
+        -webkit-box-shadow: none;
+        box-shadow: none
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .col-padding {
+        padding-left: 27%;
+    }
+    .cliente-align {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 359px) {
+    .texto-servicos {
+        font-size: 15px;
+        width: 240px!important;
+    }
+
+     #dados-contato {
+        align-items: center;
+        float: none;
+        width: 90%!important;
+         padding-left: none!important;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .dados-contato{
+        width: 90%!important;
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 275px) {
+    .formulario {
+        width: 220px;
+    }
+    .form-contato {
+        width: 50%;
+        margin: 10px;
+    }
+    .texto-cabecalho {
+        font-size: 30px!important;
+        margin: 20px 0 50px 0;
+    }
+    .jumbotron {
+        height: 300px;
+    }
+    textarea {
+        width: 220px;
+    }
+    .texto-descricao {
+        margin: 20px 0 20px 0;
+        font-size: 40px;
+    }
+    .dados-contato {
+        padding: 0px;
+    }
+    .container {
+        padding: 0px;
+        width: 270px;
+    }
+    .col-sm-6 col-md-3 {}
+}
+
+@media screen (max-width: 360px) {
+    .formulario {
+        width: 220px;
+    }
+    .form-contato {
+        width: 50%;
+        margin: 10px;
+        padding: 0px;
+    }
+    .btn {
+        width: 100px;
+        border-radius: 0px!important;
+        color: white;
+        background-color: #252323;
+        border-color: white;
+        margin: 25px 60px 25px 60px;
+    }
+    .texto-cabecalho {
+        font-size: 30px!important;
+        margin: 20px 0 50px 0;
+    }
+    .jumbotron {
+        height: 300px;
+    }
+    textarea {
+        float: left;
+        width: 220px;
+        margin: 0 0 5px 5px;
+    }
+    .texto-descricao {
+        margin: 20px 0 20px 0;
+        font-size: 40px;
+    }
+    .dados-contato {
+        align-items: center;
+        float: none;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .container {
+        padding: 0px;
+        width: 270px;
+    }
+    .texto-servicos {
+        text-align: center;
+        font-family: Century gothic;
+        font-size: 20px;
+        width: auto;
+        margin-bottom: 10px!important;
+        padding-top: 20px;
+    }
+}
+
+@media screen (max-width: 640px) {
+    #dados-contato {
+        margin: 30px 60px 30px 60px!important;
+        width: 300px;
+        ;
+    }
+}
