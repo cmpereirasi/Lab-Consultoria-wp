@@ -9,7 +9,7 @@
 
     <!-- Bootstrap -->
     <!--CSS-->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
     <link rel="stylesheet" media="only screen and (max-width: 400px)">
     <!--JS-->
