@@ -9,14 +9,13 @@ Tags: black, white, one-column, two-columns, flexible-width, custom-background, 
 License: GNU General Public License v2.0 & Apache License 2.0
 License URI: http://granberyconsultoria.com.br/
 */
-
-/* HEADS UP: Everything that you will normally find here can be found in the library/less/wp.less */
-
-
-html {
-    height: 100%;
+body{
+    margin: 0;
+    padding: 0;
 }
-
+html{
+  margin: 0;
+}
 .fundo {
     background-color: #fdfdfd!important;
 }
@@ -443,4 +442,15 @@ footer font {
         width: 300px;
         ;
     }
+}
+
+/*My style*/
+.thumbnail .caption a{
+  float: right;
+}
+.thumbnail .caption h3{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+
 }
