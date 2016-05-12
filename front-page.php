@@ -116,7 +116,7 @@
     </section>
 </div> <!-- end section cliente -->
 
-<section class="curso-post">
+<article class="curso-post">
     <div class="container">
       <div class="row">
         <?php
@@ -138,7 +138,7 @@
 
       </div>
     </div>
-</section>
+</article>
 <section class="background-contato">
     <div class="row" id="contato">
         <div class="col-xs-24 col-md-12">

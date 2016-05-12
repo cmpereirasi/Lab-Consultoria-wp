@@ -55,28 +55,23 @@
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
-          <li data-target="#myCarousel" data-slide-to="3"></li>
       </ol>
 
       <!-- Wrapper for Slides -->
       <div class="carousel-inner" role="listbox">
           <div class="item active slide">
-              <img src="<?php bloginfo('template_directory'); ?>/assets/img/slide/slide2.png" alt="...">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/img/slide/slide7.png" alt="...">
               <div class="carousel-caption">
+                <h3>Preparamos o seu Laboratório para a conquista da Acreditação</h3>
               </div>
           </div>
           <div class="item  slide">
-              <img src="<?php bloginfo('template_directory'); ?>/assets/img/slide/slide1.png' ?>" alt="...">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/img/slide/slide03.png' ?>" alt="...">
               <div class="carousel-caption">
               </div>
           </div>
           <div class="item slide">
-              <img src="<?php bloginfo('template_directory'); ?>/assets/img/slide/slide3.png' ?>" alt="...">
-              <div class="carousel-caption">
-              </div>
-          </div>
-          <div class="item slide">
-              <img src="<?php bloginfo('template_directory'); ?>/assets/img/slide/slide4.png' ?>" alt="...">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/img/slide/slide04.png' ?>" alt="...">
               <div class="carousel-caption">
               </div>
           </div>
