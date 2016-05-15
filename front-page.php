@@ -130,7 +130,7 @@
                 <div class="caption">
                   <h3> <?php the_title(); ?></h3>
                   <?php the_excerpt(); ?>
-                  <a href="<?php the_permalink(); ?>" class="btn btn-primary">Saiba mais</a>
+                  <p><a href="<?php the_permalink(); ?>" class="btn btn-primary">Saiba mais</a></p>
                 </div>
             </div>
         </div>

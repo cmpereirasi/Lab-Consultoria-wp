@@ -15,6 +15,7 @@
 
 </head>
 <body>
+<?php if( is_front_page() ): ?>
   <nav role="navigation" class="navbar navbar-default">
       <div class="container">
           <div class="container-fluid">
@@ -68,11 +69,13 @@
           <div class="item  slide">
               <img src="<?php bloginfo('template_directory'); ?>/assets/img/slide/slide03.png' ?>" alt="...">
               <div class="carousel-caption">
+                <h3>Projetos de Marketing de resultados customizados</h3>
               </div>
           </div>
           <div class="item slide">
               <img src="<?php bloginfo('template_directory'); ?>/assets/img/slide/slide04.png' ?>" alt="...">
               <div class="carousel-caption">
+                <h3>Capacitação da sua equipe frente aos novos desafios</h3>
               </div>
           </div>
       </div>
@@ -86,3 +89,26 @@
       </a>
 
   </header>
+<?php else: ?>
+
+  <div class="header-page">
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="#home" class="navbar-brand"><img id="logomarca" src="<?php bloginfo('template_directory'); ?>/assets/img/Logo-page.png' ?>" height="80px" width="100px"></a>
+        </div>
+      </div>
+  </nav>
+  <div class="header-page__cover">
+      <div class="jumbotron">
+        <div class="container">
+          <h1><?php the_title(); ?></h1>
+          <header>
+            <p class="meta"><?php _e("Posted", "wpbootstrap"); ?> <time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php echo get_the_date('F jS, Y', '','', FALSE); ?></time> <?php _e("by", "wpbootstrap"); ?> <?php the_author_posts_link(); ?> <span class="amp">&</span> <?php _e("filed under", "wpbootstrap"); ?> <?php the_category(', '); ?>.</p>
+
+          </header> <!-- end article header -->
+        </div>
+    </div>
+  </div>
+</div>
+<?php endif; ?>
