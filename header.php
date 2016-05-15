@@ -34,7 +34,7 @@
                   <ul class="nav navbar-nav navbar-right">
                       <li id="cor-menu"><a href="#consultorias">Consultorias</a></li>
                       <li id="cor-menu"><a href="#clientes">Clientes</a></li>
-                      <li id="cor-menu"><a href="#noticias">Cursos</a></li>
+                      <li id="cor-menu"><a href="#js-cursos">Cursos</a></li>
                       <li id="cor-menu"><a href="#contato">Contato</a></li>
                   </ul>
               </div>
@@ -112,3 +112,8 @@
   </div>
 </div>
 <?php endif; ?>
+
+<script src="<?php bloginfo('template_url'); ?>/assets/js/jquery.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/rolagem.js"></script>
+  <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/rolagem.js"></script>

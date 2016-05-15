@@ -116,9 +116,10 @@
     </section>
 </div> <!-- end section cliente -->
 
-<article class="curso-post">
+<article class="curso-post" id="js-cursos">
     <div class="container">
       <div class="row">
+        <h2><center><div class="texto-descricao">Cursos</div></center></h2>
         <?php
             $args = array('post_type'=>'post', 'showposts'=> 3 );
             $my_posts = get_posts($args);
@@ -130,7 +131,8 @@
                 <div class="caption">
                   <h3> <?php the_title(); ?></h3>
                   <?php the_excerpt(); ?>
-                  <p><a href="<?php the_permalink(); ?>" class="btn btn-primary">Saiba mais</a></p>
+                      <p><a href="<?php the_permalink(); ?>" class="btn btn-primary" role="button">Saiba mais</a></p>
+                      <!--a href="<?php the_permalink(); ?>" class="btn btn-primary">Saiba mais</a-->
                 </div>
             </div>
         </div>
