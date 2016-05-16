@@ -526,6 +526,19 @@ footer{
 
 /*page single formulario cursos*/
 .curso-formulario {
-
+  margin: 50px 0;
 }
+/*btn primary and success*/
+.curso-formulario .btn-success, .postagem_curso .btn-primary {
+  background: none;
+  color: #619cde;
+  border: 1px solid #619cde;
+  transition: 0.5s;
+}
+.curso-formulario .btn-success, .postagem_curso .btn-primary:hover{
+  background:  #619cde;
+  color: #FFFFFF;
+  transition: 0.5s;
+}
+
 /* end page single formulario cursos*/
