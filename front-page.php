@@ -124,7 +124,7 @@
             $my_posts = get_posts($args);
          ?>
          <?php if( $my_posts ) : foreach ( $my_posts as $post ) : setup_postdata( $post ); ?>
-        <div class="col-sm-4 col-md-4 postagem_curso">
+        <div class="col-sm-4 col-md-4 postagem-curso">
             <div class="thumbnail">
                 <?php the_post_thumbnail(); ?>
                 <div class="caption">

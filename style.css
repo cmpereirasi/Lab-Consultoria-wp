@@ -1,7 +1,7 @@
 /*
 Theme Name: lab-consultoria
 Theme URI: http://granberyconsultoria.com.br/
-Description: A simple responsive theme based on the Bootstrap framework. Includes multiple page templates, two different sidebars and a theme options panel.
+Description: A simple responsive theme based on the Bootstrap framework. Includes mult<postagem-curso></postagem-curso>iple page templates, two different sidebars and a theme options panel.
 Version: 1.0.0
 Author: granbery consultoria
 Author URI: http://granberyconsultoria.com.br/
@@ -38,7 +38,8 @@ html{
 }
 
 img {
-    margin-top: -16px;
+    margin-top: -16px
+    ;
 }
 
 .navbar-nav>li>a {
@@ -452,13 +453,13 @@ footer font {
   height: 800px;
 }
 
-.postagem_curso a{
+.postagem-curso a{
   align-items: center;
 }
-..postagem_curso h3{
+.postagem-curso h3{
   text-align: center;
 }
-.postagem_curso .thumbnail {
+.postagem-curso .thumbnail {
   padding:   0;
   margin-bottom: 50px;
 }
@@ -529,15 +530,17 @@ footer{
   margin: 50px 0;
 }
 /*btn primary and success*/
-.curso-formulario .btn-success, .postagem_curso .btn-primary {
+.curso-formulario .btn-success , .postagem-curso .btn-primary {
   background: none;
   color: #619cde;
   border: 1px solid #619cde;
+
   transition: 0.5s;
 }
-.curso-formulario .btn-success, .postagem_curso .btn-primary:hover{
+.curso-formulario a .btn-success, .postagem-curso .btn-primary:hover{
   background:  #619cde;
   color: #FFFFFF;
+
   transition: 0.5s;
 }
 
