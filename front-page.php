@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-<div class="container" id="consultorias">
-    <section>
+<div class="container espacamento-header" id="consultorias">
+    <section >
         <div class="row">
             <div class="col-xs-24 col-md-12">
                 <h2><center><div class="texto-descricao">Consultorias</div></center></h2>
@@ -54,66 +54,68 @@
         </center>
     </section>
 </div>
+<!-- AQUI COMEÇA SECTION CLIENTE  -->
+<section class="espacamento-header" id="clientes">
+  <div class="container">
+          <div class="row" >
+              <div class="col-xs-24 col-md-12">
+                  <h2><center><div class="texto-descricao">Clientes</div></center></h2>
+              </div>
+          </div>
+          <center>
+              <div class="row">
+                  <div class="col-sm-6 col-md-3 clientes-thumbanil">
+                      <div class="thumbnail">
+                          <a href="http://www.hermespardini.com.br/" target="_blank"><img class="img2" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/hermespardini.PNG" alt="..."></a>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-md-3 clientes-thumbanil">
+                      <div class="thumbnail">
+                          <a href="http://www.labstestevao.com/" target="_blank"> <img class="img7" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/labstestevao.PNG" alt="..."></a>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-md-3   clientes-thumbanil">
+                      <div class="thumbnail">
+                          <a href="http://www.laboratoriomontesinai.com.br/" target="_blank"><img class="img3" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/laboratoriomontesinai.png" alt="..."></a>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-md-3  clientes-thumbanil">
+                      <div class="thumbnail">
+                          <a href="http://www.laboratoriosaojose.com.br/" target="_blank"> <img class="img4" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/laboratoriosaojose.png" alt="..."></a>
+                      </div>
+                  </div>
+              </div>
 
-<div class="container">
-    <section>
-        <div class="row" id="clientes">
-            <div class="col-xs-24 col-md-12">
-                <h2><center><div class="texto-descricao">Clientes</div></center></h2>
-            </div>
-        </div>
-        <center>
-            <div class="row">
-                <div class="col-sm-6 col-md-3 clientes-thumbanil">
-                    <div class="thumbnail">
-                        <a href="http://www.hermespardini.com.br/" target="_blank"><img class="img2" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/hermespardini.PNG" alt="..."></a>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 clientes-thumbanil">
-                    <div class="thumbnail">
-                        <a href="http://www.labstestevao.com/" target="_blank"> <img class="img7" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/labstestevao.PNG" alt="..."></a>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3   clientes-thumbanil">
-                    <div class="thumbnail">
-                        <a href="http://www.laboratoriomontesinai.com.br/" target="_blank"><img class="img3" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/laboratoriomontesinai.png" alt="..."></a>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3  clientes-thumbanil">
-                    <div class="thumbnail">
-                        <a href="http://www.laboratoriosaojose.com.br/" target="_blank"> <img class="img4" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/laboratoriosaojose.png" alt="..."></a>
-                    </div>
-                </div>
-            </div>
 
+              <div class="row">
+                  <div class="col-sm-6 col-md-3 clientes-thumbanil">
+                      <div class="thumbnail">
+                          <a href="http://www.laboratoriosantaterezinha.com.br/" target="_blank"><img class="img5" width="800" height="80" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/labsantaterezinha.png" alt="..."></a>
+                      </div>
+                  </div>
 
-            <div class="row">
-                <div class="col-sm-6 col-md-3 clientes-thumbanil">
-                    <div class="thumbnail">
-                        <a href="http://www.laboratoriosantaterezinha.com.br/" target="_blank"><img class="img5" width="800" height="80" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/labsantaterezinha.png" alt="..."></a>
-                    </div>
-                </div>
+                  <div class="col-sm-6 col-md-3 clientes-thumbanil">
+                      <div class="thumbnail">
+                          <a href="http://www.laborsaolucas.com.br/" target="_blank"><img class="img6" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/labsaolucas.png" alt="..."></a>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-md-3 clientes-thumbanil">
+                      <div class="thumbnail">
+                          <a href="http://www.lawall.com.br/" target="_blank"><img class="img8" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/lawall.png" alt="..."></a>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-md-3 clientes-thumbanil">
+                      <div class="thumbnail">
+                          <a href="http://www.diagnosticosdobrasil.com.br/" target="_blank"><img class="img1" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/diagnosticobrasil.png" alt="..."></a>
+                      </div>
 
-                <div class="col-sm-6 col-md-3 clientes-thumbanil">
-                    <div class="thumbnail">
-                        <a href="http://www.laborsaolucas.com.br/" target="_blank"><img class="img6" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/labsaolucas.png" alt="..."></a>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 clientes-thumbanil">
-                    <div class="thumbnail">
-                        <a href="http://www.lawall.com.br/" target="_blank"><img class="img8" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/lawall.png" alt="..."></a>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 clientes-thumbanil">
-                    <div class="thumbnail">
-                        <a href="http://www.diagnosticosdobrasil.com.br/" target="_blank"><img class="img1" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/diagnosticobrasil.png" alt="..."></a>
-                    </div>
+                  </div>
+              </div>
+          </center>
+  </div>
+</section><!-- AQUI TERMINA SECTION CLIENTE -->
 
-                </div>
-            </div>
-        </center>
-    </section>
-</div> <!-- end section cliente -->
+<!-- AQUI COMEÇA POSTE DOS CURSOS -->
 
 <article class="curso-post" id="js-cursos">
     <div class="container">
@@ -140,8 +142,8 @@
       </div>
     </div>
 </article>
-<section class="background-contato">
-    <div class="row" id="contato">
+<section class="background-contato espacamento-header" id="contato">
+    <div class="row" id="contato" class="active">
         <div class="col-xs-24 col-md-12">
             <h2><center><div class="texto-descricao-contato">Contato</div></center></h2>
         </div>
@@ -154,8 +156,6 @@
                                 <input class="formulario" type="name" class="form-control" id="nome" placeholder="Nome" required>
                             </div>
                         </div>
-
-
                     </div>
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
@@ -173,8 +173,6 @@
                                 <input class="formulario" type="teelefone" class="form-control" id="telefone" placeholder="Telefone" required>
                             </div>
                         </div>
-
-
                     </div>
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
@@ -193,7 +191,6 @@
                     <button type="button" class="btn btn-sub">Enviar</button>
                 </form>
             </div>
-
             <div class="dados-contato" id="dados-contato">
                 <div class="row">
                     <div class="col-xs-12 col-md-6">

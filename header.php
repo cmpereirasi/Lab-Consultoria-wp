@@ -14,7 +14,7 @@
     <?php wp_head(); ?>
 
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 <?php if( is_front_page() ): ?>
   <nav role="navigation" class="navbar navbar-default">
       <div class="container">

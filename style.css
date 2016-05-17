@@ -12,6 +12,7 @@ License URI: http://granberyconsultoria.com.br/
 body{
     margin: 0;
     padding: 0;
+    position: relative;
 }
 html{
   margin: 0;
@@ -451,6 +452,7 @@ footer font {
 .curso-post {
   background-color: #eeeeee;
   height: 800px;
+  padding-top: 64px;
 }
 
 .postagem-curso a{
@@ -545,3 +547,17 @@ footer{
 }
 
 /* end page single formulario cursos*/
+
+
+/*navbar target*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  background: none;
+  border-bottom: 1px solid #619cde;
+  padding-bottom: 5px;
+}
+
+
+/*espaçamento header target*/
+.espacamento-header{
+  padding-top: 64px;
+}
