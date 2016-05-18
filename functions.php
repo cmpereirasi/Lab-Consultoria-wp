@@ -1,11 +1,11 @@
 <?php
 
+add_image_size('thumb-custom', 242, 200, true);
 /**************************************
  *  THEME SUPORT
  **************************************/
 function add_suport_theme(){
     add_theme_support( 'post-thumbnails' );
-    add_image_size('thumb-custom', 242, 200, true);
 
 }
 add_action('after_setup_theme','add_suport_theme');

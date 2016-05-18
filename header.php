@@ -95,7 +95,7 @@
     <nav class="navbar">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a href="#home" class="navbar-brand"><img id="logomarca" src="<?php bloginfo('template_directory'); ?>/assets/img/Logo-page.png' ?>" height="80px" width="100px"></a>
+          <a href="<?php echo home_url(); ?>" class="navbar-brand"><img id="logomarca" src="<?php bloginfo('template_directory'); ?>/assets/img/Logo-page.png' ?>" height="80px" width="100px"></a>
         </div>
       </div>
   </nav>

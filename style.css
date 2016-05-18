@@ -171,8 +171,9 @@ h1 {
 }
 
 .background-contato {
-    height: 500px;
+    height: 552px;
     background: #252323;
+    padding-bottom: 30px;
 }
 
 .formulario {
@@ -195,12 +196,21 @@ h1 {
     border-color: white;
     margin-bottom: 100px;
     margin: 5px;
+
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
 }
 
 .btn-sub:hover {
-    color: #837c7c;
+    background-color: #619cde;
+    color: #FFFFFF;
     text-decoration: none;
-    border-color: #837c7c;
+    border-color: #619cde;
+
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
 }
 
 .form-group {
@@ -478,7 +488,7 @@ h1, h2, h3, h3{
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
   font-style: normal;
-  font-size: 100%;
+  font-size: 2em%;
 }
 
 
@@ -514,9 +524,9 @@ footer{
 .navbar-footer span{
   font-weight: bold;
 }
-}
-.footer-log-gc a{
-  margin-top: 20px;
+
+.logo-footer {
+  margin-top: -6px;
 }
 
 /*page footer end*/

@@ -8,7 +8,7 @@
 							<?php wp_link_pages(); ?>
 
               <div class="curso-formulario">
-                <center><a href="#" class="btn btn-success">Faça sua incrição</a></center>
+                <center><a href="https://docs.google.com/forms/d/1p7X0S2y4b93hfNdhLLM-B0b74-AzgQNLYkwNeg09fFU/viewform?c=0&w=1" class="btn btn-success">Faça sua incrição</a></center>
               </div>
 						</section> <!-- end article section -->
 					</article> <!-- end article -->
