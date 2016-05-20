@@ -390,7 +390,6 @@ footer font {
         padding: 0px;
         width: 270px;
     }
-    .col-sm-6 col-md-3 {}
 }
 
 @media screen (max-width: 360px) {
@@ -502,6 +501,7 @@ h1, h2, h3, h3{
 }
 .header-page__cover .jumbotron{
   background: url('assets/img/page-cover.png');
+  background-repeat: no-repeat;
   margin-top: -10px;
   text-align: center;
 

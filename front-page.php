@@ -119,14 +119,14 @@
 
 <article class="curso-post" id="js-cursos">
     <div class="container">
-      <div class="row">
         <h2><center><div class="texto-descricao">Cursos</div></center></h2>
         <?php
             $args = array('post_type'=>'post', 'showposts'=> 3 );
             $my_posts = get_posts($args);
          ?>
          <?php if( $my_posts ) : foreach ( $my_posts as $post ) : setup_postdata( $post ); ?>
-        <div class="col-sm-4 col-md-4 postagem-curso">
+           <div class="row">
+            <div class="col-xs-4 col-md-4 postagem-curso">
             <div class="thumbnail">
                 <?php the_post_thumbnail(); ?>
                 <div class="caption">
@@ -144,7 +144,7 @@
 </article>
 <section class="background-contato espacamento-header" id="contato">
     <div class="row" id="contato" class="active">
-        <div class="col-xs-24 col-md-12">
+        <div class="col-xs-12 col-md-12">
             <h2><center><div class="texto-descricao-contato">Contato</div></center></h2>
         </div>
         <div class="container">

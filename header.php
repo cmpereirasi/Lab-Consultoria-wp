@@ -100,11 +100,11 @@
       </div>
   </nav>
   <div class="header-page__cover">
-      <div class="jumbotron">
+      <div class="jumbotron header-page__cover-jumb">
         <div class="container">
           <h1><?php the_title(); ?></h1>
           <header>
-            <p class="meta"><?php _e("Posted", "wpbootstrap"); ?> <time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php echo get_the_date('F jS, Y', '','', FALSE); ?></time> <?php _e("by", "wpbootstrap"); ?> <?php the_author_posts_link(); ?> <span class="amp">&</span> <?php _e("filed under", "wpbootstrap"); ?> <?php the_category(', '); ?>.</p>
+            <p class="meta"><?php _e("Posted", "wpbootstrap"); ?> <time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php echo get_the_date('F jS, Y', '','', FALSE); ?></time> <?php the_author_posts_link(); ?></p>
 
           </header> <!-- end article header -->
         </div>
