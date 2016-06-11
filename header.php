@@ -6,13 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
     <link rel="icon" href="img/Logo.png" type="image/gif">
-
     <!-- Bootstrap -->
     <!--CSS-->
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
     <link rel="stylesheet" media="only screen and (max-width: 400px)">
     <?php wp_head(); ?>
-
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 <?php if( is_front_page() ): ?>
@@ -20,7 +18,7 @@
       <div class="container">
           <div class="container-fluid">
               <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
+              <div>
                   <button style="margin-top: 70px; margin-bottom: -33px;" type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
                       <span class="sr-only">Toggle navigation</span>
                       <span class="icon-bar"></span>
@@ -46,7 +44,6 @@
       <!-- /.container -->
   </nav>
   <!-- FIM DO NAVBAR-->
-
 
   <!--    slider header-->
   <header id="myCarousel" class="carousel slide">
@@ -102,12 +99,15 @@
   <div class="header-page__cover">
       <div class="jumbotron header-page__cover-jumb">
         <div class="container">
-          <h1><?php the_title(); ?></h1>
-          <header>
-            <p class="meta"><?php _e("Posted", "wpbootstrap"); ?> <time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php echo get_the_date('F jS, Y', '','', FALSE); ?></time> <?php the_author_posts_link(); ?></p>
-
-          </header> <!-- end article header -->
+          <div class="row">
+            <div class="col-xs-12 col-md-12">
+                <h1><?php the_title(); ?></h1>
+                <header>
+                    <p  style="color: #FFFFFF"class="meta"><?php _e("Posted", "wpbootstrap"); ?> <time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php echo get_the_date('F jS, Y', '','', FALSE); ?></time> <?php the_author_posts_link(); ?></p>
+                </header> <!-- end article header -->
         </div>
+      </div>
+    </div>
     </div>
   </div>
 </div>

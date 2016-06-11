@@ -1,5 +1,4 @@
 <?php
-
 add_image_size('thumb-custom', 242, 200, true);
 /**************************************
  *  THEME SUPORT

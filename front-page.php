@@ -63,8 +63,8 @@
               </div>
           </div>
           <center>
-              <div class="row">
-                  <div class="col-sm-6 col-md-3 clientes-thumbanil">
+              <div class="row ">
+                  <div class="col-sm-6 col-md-3 clientes-thumbanil ">
                       <div class="thumbnail">
                           <a href="http://www.hermespardini.com.br/" target="_blank"><img class="img2" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/hermespardini.PNG" alt="..."></a>
                       </div>
@@ -116,108 +116,69 @@
 </section><!-- AQUI TERMINA SECTION CLIENTE -->
 
 <!-- AQUI COMEÇA POSTE DOS CURSOS -->
-
 <article class="curso-post" id="js-cursos">
-    <div class="container">
+  <div class="container">
+    <div class="row">
         <h2><center><div class="texto-descricao">Cursos</div></center></h2>
         <?php
             $args = array('post_type'=>'post', 'showposts'=> 3 );
             $my_posts = get_posts($args);
+            if( $my_posts ) : foreach ( $my_posts as $post ) : setup_postdata( $post );
          ?>
-         <?php if( $my_posts ) : foreach ( $my_posts as $post ) : setup_postdata( $post ); ?>
-           <div class="row">
-            <div class="col-xs-4 col-md-4 postagem-curso">
-            <div class="thumbnail">
-                <?php the_post_thumbnail(); ?>
-                <div class="caption">
-                  <h3> <?php the_title(); ?></h3>
-                  <?php the_excerpt(); ?>
-                      <p><a href="<?php the_permalink(); ?>" class="btn btn-primary" role="button">Saiba mais</a></p>
-                      <!--a href="<?php the_permalink(); ?>" class="btn btn-primary">Saiba mais</a-->
-                </div>
-            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 postagem-curso">
+                    <a class="post-permalink"href="<?php the_permalink(); ?>"><?php the_post_thumbnail(false, array('class' => 'img-responsive')); ?></a>
+                      <a class="post-permalink" href="<?php the_permalink(); ?>"><h3> <?php the_title(); ?></h3></a>
+                          <!-- <p><a href="<?php the_permalink(); ?>" class="btn btn-primary" role="button">Saiba mais</a></p> -->
+                          <!--a href="<?php the_permalink(); ?>" class="btn btn-primary">Saiba mais</a-->
         </div>
       <?php endforeach; endif; ?>
-
-      </div>
+      <div class="clear">  </div>
     </div>
+  </div>
 </article>
+
 <section class="background-contato espacamento-header" id="contato">
-    <div class="row" id="contato" class="active">
-        <div class="col-xs-12 col-md-12">
+    <div id="contato" class="active">
+      <div class="container">
+        <div class="row">
             <h2><center><div class="texto-descricao-contato">Contato</div></center></h2>
-        </div>
-        <div class="container">
-            <div class="form-contato">
-                <form role="form">
-                    <div class="row">
-                        <div class="col-xs-12 col-md-6">
-                            <div class="form-group">
-                                <input class="formulario" type="name" class="form-control" id="nome" placeholder="Nome" required>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12 col-md-6">
-                            <div class="form-group">
-                                <input class="formulario" type="email" class="form-control" id="email" placeholder="Email" required>
-                            </div>
+              <div class="form-contato">
+                  <form role="form" >
+                    <div class="form-group">
+                          <div class="col-xs-12 col-sm-6 col-md-6">
+                                  <input class="formulario" type="name" class="form-control" id="nome" placeholder="Nome" required>
+                                  <input class="formulario" type="e-mail" class="form-control" id="nome" placeholder="E-mail" required>
+                                  <input class="formulario" type="tel" class="form-control" id="nome" placeholder="Telefone" required>
+                                  <input class="formulario" type="text" class="form-control" id="assunto" placeholder="Assunto" required>
 
-                        </div>
+                                  <div class="">
+                                    <textarea class="formulario" id="textarea"  rows="3" placeholder="Sua messagem.."></textarea>
+                                    <button type="submit" class="btn btn-sub">Enviar</button>
+                                  </div>
+                              </div>
+                              <div class="col-sm-6 col-md-6 text-center">
+                                    <p>
+                                      <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/phone.png' ?>" alt=""><font>(32) 9 8765-4321 </font>
+                                    </p>
+
+                                    <p>
+                                      <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/mail.png' ?>" alt=""/><font>labconsultoria.org</font>
+                                    </p>
+
+                                    <p>
+                                      <a href="#" class="link-facebook">
+                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/facebook.png' ?>" alt=""><font>/labconsultoria</font></a>
+                                    </p>
+                                    <p>
+                                      <a href="#" class="link-facebook"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/linkedin.png' ?>" alt=""><font>/labconsultoria</font></a>
+                                    </p>
+                              </div>
+                          </div>
+                  </form>
+              </div>
 
 
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12 col-md-6">
-                            <div class="form-group">
-                                <input class="formulario" type="teelefone" class="form-control" id="telefone" placeholder="Telefone" required>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12 col-md-6">
-                            <div class="form-group">
-                                <input class="formulario" type="assunto" class="form-control" id="assunto" placeholder="Assunto" required>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-14 col-md-7">
-                            <center>
-                                <textarea name="" id="textarea" cols="30" rows="2" placeholder="Mensagem" maxlength="170" required></textarea>
-                            </center>
-                        </div>
-                    </div>
-                    <button type="button" class="btn btn-sub">Enviar</button>
-                </form>
-            </div>
-            <div class="dados-contato" id="dados-contato">
-                <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/phone.png' ?>" alt=""><font>(32) 9 8765-4321 </font>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-xs-12 col-md-6 email">
-                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/mail.png' ?>" alt=""><font>labconsultoria.org</font>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <a href="#" class="link-facebook"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/facebook.png' ?>" alt=""><font>/labconsultoria</font></a>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <a href="#" class="link-facebook"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/linkedin.png' ?>" alt=""><font>/labconsultoria</font></a>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </section>
-
-
 <?php get_footer(); ?>
