@@ -116,7 +116,8 @@
 </section><!-- AQUI TERMINA SECTION CLIENTE -->
 
 <!-- AQUI COMEÇA POSTE DOS CURSOS -->
-<article class="curso-post" id="js-cursos">
+<article class="curso-post" id="js-cursos" style="
+    margin-bottom: 50px;">
   <div class="container">
     <div class="row">
         <h2><center><div class="texto-descricao">Cursos</div></center></h2>

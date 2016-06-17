@@ -5,7 +5,9 @@ Description: A simple responsive theme based on the Bootstrap framework. Include
 Version: 1.0.0
 Author: granbery consultoria
 Author URI: http://granberyconsultoria.com.br/
-Tags: black, white, one-column, two-columns, flexible-width, custom-background, custom-colors, custom-menu, full-width-template, theme-options
+Tags: black, white,
+
+ one-column, two-columns, flexible-width, custom-background, custom-colors, custom-menu, full-width-template, theme-options
 License: GNU General Public License v2.0 & Apache License 2.0
 License URI: http://granberyconsultoria.com.br/
 */
@@ -32,6 +34,10 @@ body{
     margin: 15px 15px 15px 15px;
 }
 
+.navbar-toggle {
+    border: none;
+
+}
 .navbar-toggle {
     border: none;
 }
@@ -456,10 +462,11 @@ footer font {
 
 /*My style*/
 
-.curso-post {
-  background-color: #eeeeee;
-  height: 800px;
+article .curso-post {
+  background-color: #EEE;
+  height: 900px;
   padding-top: 64px;
+  padding-bottom: 50px;
 }
 
 .postagem-curso a{
@@ -470,7 +477,7 @@ footer font {
 }
 .postagem-curso .thumbnail {
   padding:   0;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 .thumbnail .caption {
   text-align: center;
@@ -584,4 +591,15 @@ footer{
 .post-permalink:hover{
   color: #333;
   opacity: 1;
+}
+.navbar-toggle:hover{
+  color: #FFF;
+}
+
+.navbar-default .navbar-nav>a, .navbar-default .navbar-nav>.active> .navbar-default .navbar-nav>a{
+  text-align: center;
+}
+.navbar-nav>li>a{
+  text-align: center;
+  color: #FFF;
 }

@@ -19,7 +19,7 @@
           <div class="container-fluid">
               <!-- Brand and toggle get grouped for better mobile display -->
               <div>
-                  <button style="margin-top: 70px; margin-bottom: -33px;" type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                  <button style="margin-top: 70px; margin-bottom: 0;" type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
                       <span class="sr-only">Toggle navigation</span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
