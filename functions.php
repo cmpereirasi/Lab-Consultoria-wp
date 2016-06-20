@@ -20,6 +20,7 @@ add_theme_support('menus');
 function wp_responsivo_scripts() {
   // Carregando CSS header
   wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
+  wp_enqueue_style( 'bootstrap', get_template_directory_uri() . 'path/to/font-awesome/css/font-awesome.min.css' );
   wp_enqueue_style( 'style', get_stylesheet_uri() );
 
   // Carregando Scripts header

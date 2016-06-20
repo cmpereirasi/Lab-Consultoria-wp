@@ -77,15 +77,6 @@ h1 {
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1)
 }
 
-/*.thumbnail {
-    width: 250px;
-    display: inline-grid;
-    padding: 1px;
-    margin-bottom: 20px;
-    transition: border .2s ease-in-out;
-    border: none;
-}*/
-
 .texto-descricao {
     font-family: Century Gothic;
     font-weight: 400;
@@ -111,10 +102,6 @@ h1 {
     padding-top: 20px;
 }
 
-/*.row {
-    margin-right: 0px!important;
-    margin-left: -15px
-}*/
 
 .img-servicos {
     width: 70px;
@@ -269,18 +256,6 @@ footer font {
     margin: 5px;
 }
 
-/*.form-contato {
-    float: left;
-    width: 50%;
-    padding: 0 0px 0 30px;
-}*/
-
-/*.dados-contato {
-    float: right;
-    width: 50%;
-    padding: 0 51px 0 51px;
-}*/
-
 .slide {
     width: 100%;
     height: 60%;
@@ -291,30 +266,6 @@ footer font {
     width: 900px;
 }
 
-/*@media (max-width: 767px) {
-    .dados-contato {
-        align-items: center;
-        float: none;
-        width: 300px;
-        margin: 30px 30px 30px 30px;
-    }
-    .form-contato {
-        float: none;
-        width: 80%!important;
-        margin-left: 10%!important;
-        margin-right: 10%!important;
-    }
-    .navbar-right {
-        width: 100%;
-    }
-    .navbar-default {
-        background-color: rgba(109, 109, 106, 0.31);
-        border: none;
-        margin-top: -50px;
-    }
-    /*.container-fluid {
-        height: 130px;
-    }*/
     #logomarca {
         margin-top: -15px!important;
         height: 70px;
@@ -325,138 +276,6 @@ footer font {
         border-top: solid black 0;
         -webkit-box-shadow: none;
         box-shadow: none
-    }
-}*/
-
-/*@media screen and (min-width: 768px) and (max-width: 991px) {
-    .col-padding {
-        padding-left: 27%;
-    }
-    .cliente-align {
-        float: left;
-        margin: 0px;
-        padding: 0px;
-    }
-}*/
-
-/*@media screen and (min-width: 321px) and (max-width: 359px) {
-    .texto-servicos {
-        font-size: 15px;
-        width: 240px!important;
-    }
-
-     #dados-contato {
-        align-items: center;
-        float: none;
-        width: 90%!important;
-         padding-left: none!important;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-}*/
-/*
-@media (max-width: 320px) {
-
-    .dados-contato{
-        width: 90%!important;
-        margin-left: 5px;
-    }
-}
-
-@media (max-width: 275px) {
-    .formulario {
-        width: 220px;
-    }
-    .form-contato {
-        width: 50%;
-        margin: 10px;
-    }
-    .texto-cabecalho {
-        font-size: 30px!important;
-        margin: 20px 0 50px 0;
-    }
-    .jumbotron {
-        height: 300px;
-    }
-    textarea {
-        width: 220px;
-    }
-    .texto-descricao {
-        margin: 20px 0 20px 0;
-        font-size: 40px;
-    }
-    .dados-contato {
-        padding: 0px;
-    }
-    .container {
-        padding: 0px;
-        width: 270px;
-    }
-}
-
-@media screen (max-width: 360px) {
-    .formulario {
-        width: 220px;
-    }
-    .form-contato {
-        width: 50%;
-        margin: 10px;
-        padding: 0px;
-    }
-    .btn {
-        width: 100px;
-        border-radius: 0px!important;
-        color: white;
-        background-color: #252323;
-        border-color: white;
-        margin: 25px 60px 25px 60px;
-    }
-    .texto-cabecalho {
-        font-size: 30px!important;
-        margin: 20px 0 50px 0;
-    }
-    .jumbotron {
-        height: 300px;
-    }
-    textarea {
-        float: left;
-        width: 220px;
-        margin: 0 0 5px 5px;
-    }
-    .texto-descricao {
-        margin: 20px 0 20px 0;
-        font-size: 40px;
-    }
-    .dados-contato {
-        align-items: center;
-        float: none;
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-    .container {
-        padding: 0px;
-        width: 270px;
-    }
-    .texto-servicos {
-        text-align: center;
-        font-family: Century gothic;
-        font-size: 20px;
-        width: auto;
-        margin-bottom: 10px!important;
-        padding-top: 20px;
-    }
-}
-
-@media screen (max-width: 640px) {
-    #dados-contato {
-        margin: 30px 60px 30px 60px!important;
-        width: 300px;
-        ;
     }
 }*/
 
@@ -603,3 +422,11 @@ footer{
   text-align: center;
   color: #FFF;
 }
+.fa .fa-whatsapp{
+  color: white;
+}
+
+@media screen and ( max-width: 782px ) {
+		html { margin-top: 0 !important; }
+		* html,body { margin-top: 0 !important; }
+	}

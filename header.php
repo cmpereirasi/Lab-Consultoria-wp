@@ -7,6 +7,7 @@
     <title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
     <link rel="icon" href="img/Logo.png" type="image/gif">
     <!-- Bootstrap -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <!--CSS-->
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
     <link rel="stylesheet" media="only screen and (max-width: 400px)">
@@ -19,7 +20,7 @@
           <div class="container-fluid">
               <!-- Brand and toggle get grouped for better mobile display -->
               <div>
-                  <button style="margin-top: 70px; margin-bottom: 0;" type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                  <button style="margin-top: 42px; margin-bottom: 0;" type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
                       <span class="sr-only">Toggle navigation</span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
