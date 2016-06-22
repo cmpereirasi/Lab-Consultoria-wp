@@ -8,7 +8,7 @@
         </div>
         <div class="row col-padding">
             <center>
-                <div class="col-sm-8 col-md-4 consultoria-thumbanil">
+                <div class="col-sm-8 col-md-4 consultoria-thumbanil services-item">
                     <div class="thumbnail">
                         <img class="img-servicos" src="<?php bloginfo('template_directory'); ?>/assets/img/icons/pessoas%20icon.png" alt="...">
                     </div>
@@ -17,14 +17,14 @@
 
 
                 </div>
-                <div class="col-sm-8 col-md-4 consultoria-thumbanil">
+                <div class="col-sm-8 col-md-4 consultoria-thumbanil services-item">
                     <div class="thumbnail">
                         <img class="img-servicos" src="<?php bloginfo('template_directory'); ?>/assets/img/icons/acreditacao%20icon.png" alt="...">
                     </div>
                     <h2>Acreditação</h2>
                     <div class="texto-servicos">Preparamos o seu Laboratório para a conquista da Acreditação Laboratorial nas normas DICQS BAC, PALC-SBPC, ONA-MS e atendimento aos requisitos da RDC 302-ANVISA;</div>
                 </div>
-                <div class="col-sm-8 col-md-4 consultoria-thumbanil">
+                <div class="col-sm-8 col-md-4 consultoria-thumbanil services-item">
                     <div class="thumbnail">
                         <img class="img-servicos" src="<?php bloginfo('template_directory'); ?>/assets/img/icons/marketing%20icon.png" alt="...">
                     </div>
@@ -35,14 +35,14 @@
         </div>
         <div class="row ">
             <center>
-                <div class="col-sm-12 col-md-6 consultoria-thumbanil">
+                <div class="col-sm-12 col-md-6 consultoria-thumbanil services-item">
                     <div class="thumbnail">
                         <img class="img-servicos" src="<?php bloginfo('template_directory'); ?>/assets/img/icons/finan%C3%A7as.png" alt="...">
                     </div>
                     <h2>Finanças e Custos</h2>
                     <div class="texto-servicos">Capacitação e implementação de práticas de Gestão financeira e de custos personalizadas e pertinentes ao setor, apurando custo de exame, ponto de equilíbrio e margem de contribuição, propiciando melhoria na tomada de decisão frente às negociações com o mercado</div>
                 </div>
-                <div class="col-sm-12 col-md-6 consultoria-thumbanil">
+                <div class="col-sm-12 col-md-6 consultoria-thumbanil services-item">
                     <div class="thumbnail">
                         <img class="img-servicos" src="<?php bloginfo('template_directory'); ?>/assets/img/icons/diagnostico%20organizacional%20icon.png" alt="...">
                     </div>

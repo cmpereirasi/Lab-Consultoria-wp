@@ -9,4 +9,17 @@ $(document).ready(function () {
             window.location.hash = target;
         });
     });
+// animação
+var win = $(window);
+var services = $('.services-item');
+  win.scroll(function(){
+    services.each(function(i, el) {
+        var el = $(el);
+        if(el.visible(true)) {
+          el.addClass('services-animate');
+        }
+    });
+  });
+
+
 });

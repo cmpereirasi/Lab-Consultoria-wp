@@ -7,7 +7,6 @@
     <title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
     <link rel="icon" href="img/Logo.png" type="image/gif">
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <!--CSS-->
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
     <link rel="stylesheet" media="only screen and (max-width: 400px)">
@@ -60,7 +59,7 @@
       <div class="carousel-inner" role="listbox">
           <div class="item active slide">
               <img src="<?php bloginfo('template_directory'); ?>/assets/img/slide/slide7.png" alt="...">
-              <div class="carousel-caption">
+              <div class="carousel-caption hero">
                 <h3>Preparamos o seu Laboratório para a conquista da Acreditação</h3>
               </div>
           </div>
@@ -115,6 +114,5 @@
 <?php endif; ?>
 
 <script src="<?php bloginfo('template_url'); ?>/assets/js/jquery.min.js"></script>
-<script src="<?php bloginfo('template_url'); ?>/assets/js/jquery.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/rolagem.js"></script>
-  <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/rolagem.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/rolagem.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/jquery.visible.min.js"></script>

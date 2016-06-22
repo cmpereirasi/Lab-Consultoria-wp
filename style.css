@@ -430,3 +430,52 @@ footer{
 		html { margin-top: 0 !important; }
 		* html,body { margin-top: 0 !important; }
 	}
+
+
+/* /////              ////         ANIMAÇÃO ITENS           ///           /// */
+.hero{
+  opacity: 0;
+  animation: hero-keyframes 2s ease forwards;
+  -webkit-animation: hero-keyframes 2s ease forwards;
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+}
+@keyframes hero-keyframes {
+  to {
+        opacity: 1;
+  }
+}
+@-webkit-keyframes hero-keyframes {
+  to {
+        opacity: 1;
+  }
+}
+
+.services-item {
+  opacity: 0;
+  transform: translateY(150px);
+  -webkit-transform: translateY(150px);
+  animation: services-keyframes 1.5s ease forwards;
+  -webkit-animation: services-keyframes 1.5s ease forwards;
+}
+/*.services-visible {
+  opacity: 0;
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  animation: none;
+  -webkit-animation: none;
+}*/
+
+@keyframes services-keyframes {
+  to {
+        opacity: 1;
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+  }
+}
+@-webkit-keyframes services-keyframes {
+  to {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+      }
+  }

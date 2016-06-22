@@ -25,6 +25,10 @@ function wp_responsivo_scripts() {
 
   // Carregando Scripts header
   wp_enqueue_script('bootstrap-js', get_template_directory_uri().'/assets/js/bootstrap.min.js', array('jquery') );
+  wp_enqueue_script('visible', get_template_directory_uri().'/assets/js/jquery.visible.min.js', array('jquery') );
+  wp_enqueue_script('visible');
+
+  wp_register_script('visible', get_template_directory_uri().'/assets/js/jquery.visible.min.js', array('jquery') );
 
   //Carregando no footer
   //wp_enqueue_script('functions-js', get_template_directory_uri().'/assets/js/functions.js', array('jquery'), '', true );
