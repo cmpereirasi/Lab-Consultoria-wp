@@ -3,7 +3,7 @@
     <section >
         <div class="row">
             <div class="col-xs-24 col-md-12">
-                <h2><center><div class="texto-descricao">Consultorias</div></center></h2>
+                <h2><center><div class="texto-descricao services-item">Consultorias</div></center></h2>
             </div>
         </div>
         <div class="row col-padding">
@@ -55,31 +55,31 @@
     </section>
 </div>
 <!-- AQUI COMEÇA SECTION CLIENTE  -->
-<section class="espacamento-header" id="clientes">
+<section class="espacamento-header services-item" id="clientes">
   <div class="container">
           <div class="row" >
-              <div class="col-xs-24 col-md-12">
+              <div class="col-xs-24 col-md-12 services-item">
                   <h2><center><div class="texto-descricao">Clientes</div></center></h2>
               </div>
           </div>
           <center>
               <div class="row ">
-                  <div class="col-sm-6 col-md-3 clientes-thumbanil ">
+                  <div class="col-sm-6 col-md-3 clientes-thumbanil services-item">
                       <div class="thumbnail">
                           <a href="http://www.hermespardini.com.br/" target="_blank"><img class="img2" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/hermespardini.PNG" alt="..."></a>
                       </div>
                   </div>
-                  <div class="col-sm-6 col-md-3 clientes-thumbanil">
+                  <div class="col-sm-6 col-md-3 clientes-thumbanil services-item">
                       <div class="thumbnail">
                           <a href="http://www.labstestevao.com/" target="_blank"> <img class="img7" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/labstestevao.PNG" alt="..."></a>
                       </div>
                   </div>
-                  <div class="col-sm-6 col-md-3   clientes-thumbanil">
+                  <div class="col-sm-6 col-md-3   clientes-thumbanil services-item">
                       <div class="thumbnail">
                           <a href="http://www.laboratoriomontesinai.com.br/" target="_blank"><img class="img3" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/laboratoriomontesinai.png" alt="..."></a>
                       </div>
                   </div>
-                  <div class="col-sm-6 col-md-3  clientes-thumbanil">
+                  <div class="col-sm-6 col-md-3  clientes-thumbanil services-item">
                       <div class="thumbnail">
                           <a href="http://www.laboratoriosaojose.com.br/" target="_blank"> <img class="img4" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/laboratoriosaojose.png" alt="..."></a>
                       </div>
@@ -88,23 +88,23 @@
 
 
               <div class="row">
-                  <div class="col-sm-6 col-md-3 clientes-thumbanil">
+                  <div class="col-sm-6 col-md-3 clientes-thumbanil services-item">
                       <div class="thumbnail">
                           <a href="http://www.laboratoriosantaterezinha.com.br/" target="_blank"><img class="img5" width="800" height="80" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/labsantaterezinha.png" alt="..."></a>
                       </div>
                   </div>
 
-                  <div class="col-sm-6 col-md-3 clientes-thumbanil">
+                  <div class="col-sm-6 col-md-3 clientes-thumbanil services-item">
                       <div class="thumbnail">
                           <a href="http://www.laborsaolucas.com.br/" target="_blank"><img class="img6" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/labsaolucas.png" alt="..."></a>
                       </div>
                   </div>
-                  <div class="col-sm-6 col-md-3 clientes-thumbanil">
+                  <div class="col-sm-6 col-md-3 clientes-thumbanil services-item">
                       <div class="thumbnail">
                           <a href="http://www.lawall.com.br/" target="_blank"><img class="img8" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/lawall.png" alt="..."></a>
                       </div>
                   </div>
-                  <div class="col-sm-6 col-md-3 clientes-thumbanil">
+                  <div class="col-sm-6 col-md-3 clientes-thumbanil services-item">
                       <div class="thumbnail">
                           <a href="http://www.diagnosticosdobrasil.com.br/" target="_blank"><img class="img1" src="<?php bloginfo('template_directory'); ?>/assets/img/clientes/diagnosticobrasil.png" alt="..."></a>
                       </div>
@@ -120,13 +120,13 @@
     margin-bottom: 50px;">
   <div class="container">
     <div class="row">
-        <h2><center><div class="texto-descricao">Cursos</div></center></h2>
+        <h2><center><div class="texto-descricao services-item">Cursos</div></center></h2>
         <?php
             $args = array('post_type'=>'post', 'showposts'=> 1 );
             $my_posts = get_posts($args);
             if( $my_posts ) : foreach ( $my_posts as $post ) : setup_postdata( $post );
          ?>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 postagem-curso style="text-align: center">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 postagem-curso services-item" style="text-align: center">
               <center>
                     <a class="post-permalink"href="<?php the_permalink(); ?>"><?php the_post_thumbnail(false, array('class' => 'img-responsive')); ?></a>
                       <a class="post-permalink" href="<?php the_permalink(); ?>"><h3> <?php the_title(); ?></h3></a>

@@ -451,20 +451,28 @@ footer{
   }
 }
 
-.services-item {
+.services-animate {
   opacity: 0;
   transform: translateY(150px);
   -webkit-transform: translateY(150px);
   animation: services-keyframes 1.5s ease forwards;
   -webkit-animation: services-keyframes 1.5s ease forwards;
 }
-/*.services-visible {
+.services-animate:nth-last-of-type(3) {
+  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;;
+}
+.services-animate:nth-last-of-type(4) {
+  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;;
+}
+.services-visible {
   opacity: 0;
   transform: translateY(0);
   -webkit-transform: translateY(0);
   animation: none;
   -webkit-animation: none;
-}*/
+}
 
 @keyframes services-keyframes {
   to {

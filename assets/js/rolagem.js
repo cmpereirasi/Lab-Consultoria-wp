@@ -12,6 +12,13 @@ $(document).ready(function () {
 // animação
 var win = $(window);
 var services = $('.services-item');
+// visible element
+services.each(function(i, el) {
+    var el = $(el);
+    if(el.visible(true)) {
+      el.addClass('services-visible');
+    }
+});
   win.scroll(function(){
     services.each(function(i, el) {
         var el = $(el);

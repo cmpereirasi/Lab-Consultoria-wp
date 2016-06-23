@@ -65,13 +65,13 @@
           </div>
           <div class="item  slide">
               <img src="<?php bloginfo('template_directory'); ?>/assets/img/slide/slide03.png' ?>" alt="...">
-              <div class="carousel-caption">
+              <div class="carousel-caption hero">
                 <h3>Projetos de Marketing de resultados customizados</h3>
               </div>
           </div>
           <div class="item slide">
               <img src="<?php bloginfo('template_directory'); ?>/assets/img/slide/slide04.png' ?>" alt="...">
-              <div class="carousel-caption">
+              <div class="carousel-caption hero">
                 <h3>Capacitação da sua equipe frente aos novos desafios</h3>
               </div>
           </div>
