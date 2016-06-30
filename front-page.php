@@ -117,7 +117,7 @@
 
 <!-- AQUI COMEÇA POSTE DOS CURSOS -->
 <article class="curso-post" id="js-cursos" style="
-    margin-bottom: 50px;">
+    margin-bottom: 64px;">
   <div class="container">
     <div class="row">
         <h2><center><div class="texto-descricao services-item">Cursos</div></center></h2>
@@ -143,16 +143,18 @@
     <div id="contato" class="active">
       <div class="container">
         <div class="row">
-            <h2><center><div class="texto-descricao-contato">Contato</div></center></h2>
-              <center><div class="form-contato col-sm-12 col-xs-12 col-md-12">
-                <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/phone.png' ?>" alt=""><font>(32) 9 8765-4321 </font>
+            <h2><center><div class="texto-descricao-contato services-item">Contato</div></center></h2>
+              <center>
+                <div class="form-contato col-sm-12 col-xs-12 col-md-12 ">
+                    <i class="fa fa-whatsapp fa-2x services-item" ><font> (32) 9 8765-4321 </font></i>
 
-                <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/mail.png' ?>" alt=""/><font>paulo@labconsultoria.org</font>
+                    <i class="fa fa-envelope-o fa-2x services-item"><font> paulo@labconsultoria.org</font></i>
 
-                <a href="#" class="link-facebook">
-                  <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/facebook.png' ?>" alt=""><font>/labconsultoria</font></a>
-                  <a href="#" class="link-facebook"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/linkedin.png' ?>" alt=""><font>/labconsultoria</font></a>
-              </div> </center>
+                <a href="https://www.facebook.com/labconsultoria.gestao/?fref=ts" target="_blank" class="link-facebook">
+                  <i class="fa fa-facebook-official fa-2x services-item" aria-hidden="true"><font> labconsultoria</font></i></a>
+                  <!--a href="#" target="_blank" class="link-facebook"><i class="fa fa-linkedin-square fa-2x services-item" aria-hidden="true"><font> labconsultoria</font></i></a -->
+              </div>
+             </center>
 
 
         </div>

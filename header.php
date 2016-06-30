@@ -9,6 +9,7 @@
     <!-- Bootstrap -->
     <!--CSS-->
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+    <link rel="stylesheet" href="<?php bloginfo('/assets/css/font-awesome.min.css'); ?>">
     <link rel="stylesheet" media="only screen and (max-width: 400px)">
     <?php wp_head(); ?>
 </head>
@@ -89,14 +90,14 @@
 <?php else: ?>
 
   <div class="header-page">
-    <nav class="navbar">
+    <nav class="navbar"> <!--navbar page cursos-->
       <div class="container-fluid">
         <div class="navbar-header">
           <a href="<?php echo home_url(); ?>" class="navbar-brand"><img id="logomarca" src="<?php bloginfo('template_directory'); ?>/assets/img/Logo-page.png' ?>" height="80px" width="100px"></a>
         </div>
       </div>
   </nav>
-  <div class="header-page__cover">
+  <div class="header-page__cover"> <!-- imagem de destaque no header page cursos-->
       <div class="jumbotron header-page__cover-jumb">
         <div class="container">
           <div class="row">

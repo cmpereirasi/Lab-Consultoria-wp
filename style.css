@@ -22,10 +22,10 @@ body{
 }
 
 .navbar-default {
-    z-index: 1;
+    z-index: 200;
     position: fixed;
     width: 100%;
-    background-color: rgba(62, 61, 61, 0.78)!important;
+    background-color: rgba(231, 231, 231, 0.25) !important;
     border: none;
     margin-top: 0;
 }
@@ -47,7 +47,7 @@ img {
 }
 
 .navbar-nav>li>a {
-    color: rgba(245, 242, 242, 0.72)!important;
+    color: rgba(16, 16, 16, 0.72)!important;
     font-size: 20px;
     margin: 0 10px 0 0;
 }
@@ -238,6 +238,7 @@ section img {
 font {
     font-family: sans-serif;
     color: white;
+    font-size: 0.5em;
 }
 
 a {
@@ -398,6 +399,7 @@ footer{
 /*espaçamento header target*/
 .espacamento-header{
   padding-top: 64px;
+  padding-bottom: 100px;
 }
 
 .clear{
@@ -466,13 +468,13 @@ footer{
   animation-delay: 0.4s;
   -webkit-animation-delay: 0.4s;;
 }
-.services-visible {
+/*.services-visible {
   opacity: 0;
   transform: translateY(0);
   -webkit-transform: translateY(0);
   animation: none;
   -webkit-animation: none;
-}
+}*/
 
 @keyframes services-keyframes {
   to {
@@ -487,3 +489,20 @@ footer{
         -webkit-transform: translateY(0px);
       }
   }
+
+/*icon*/
+
+.fa-whatsapp{
+  color: #2ecc71;
+}
+.fa-envelope-o{
+  color: #e74c3c;
+}
+
+font{
+  margin-right: 50px;
+  margin-left: 5px;
+}
+.form-contato i{
+  padding-bottom: 20px;
+}
