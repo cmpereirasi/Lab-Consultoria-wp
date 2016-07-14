@@ -146,7 +146,7 @@
             <h2><center><div class="texto-descricao-contato services-item">Contato</div></center></h2>
               <center>
                 <div class="form-contato col-sm-12 col-xs-12 col-md-12 ">
-                    <i class="fa fa-whatsapp fa-2x services-item" ><font> (32) 9 8765-4321 </font></i>
+                    <i class="fa fa-whatsapp fa-2x services-item" ><font> (32) 9 8872-7263 </font></i>
 
                     <i class="fa fa-envelope-o fa-2x services-item"><font> paulo@labconsultoria.org</font></i>
 
