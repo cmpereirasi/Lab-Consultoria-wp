@@ -13,7 +13,7 @@
   <link rel="stylesheet" media="only screen and (max-width: 400px)">
   <?php wp_head(); ?>
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="0">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
   <?php if( is_front_page() ): ?>
     <nav role="navigation" class="navbar navbar-default">
       <div class="container">
@@ -113,8 +113,7 @@
       </div>
     </div>
   <?php endif; ?>
-
-  <script src="<?php bloginfo('template_url'); ?>/assets/js/jquery.min.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/assets/js/jquery-2.2.2.min.js"></script>
   <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/rolagem.js"></script>
   <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/carousel.js"></script>
   <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/jquery.visible.min.js"></script>
